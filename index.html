@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Calculator</title>
+</head>
+<body>
+
+ <div id="container">
+     
+    
+<section  id = "mode">
+      <input type="checkbox" id="toggle">
+      <label for ="toggle">
+<img class = "item" id ="sun" src = "line-md--sun-rising-loop.svg"alt ="sun" width="27" height="27">
+<img class="item" id = "moon" src="line-md--sunny-outline-to-moon-loop-transition.svg" alt= "moon" width="27" height="27">
+</label>
+</section>
+<section id="input" >
+
+</section>
+
+
+</section>
+
+<section class = "calculator">
+    <button onclick="showHistory(id)" id="BACK" class = "click">⌫</button>
+    <button onclick="showHistory(id)" id="AC" class = "click">AC</button>
+    <button onclick="showHistory(id)" id="%" class = "click">%</button>
+    <button onclick="showHistory(id)" id="÷" class = "click">÷</button>
+
+    <button onclick="showHistory(id)" id="7" class = "click">7</button>
+    <button onclick="showHistory(id)" id="8" class = "click">8</button>
+    <button onclick="showHistory(id)" id="9" class = "click">9</button>
+    <button onclick="showHistory(id)" id="X" class = "click">X</button>
+
+    <button onclick="showHistory(id)" id="4" class = "click">4</button>
+    <button onclick="showHistory(id)" id="5" class = "click">5</button>
+    <button onclick="showHistory(id)" id="6" class = "click">6</button>
+    <button onclick="showHistory(id)" id="-" class = "click">-</button>
+
+    <button onclick="showHistory(id)" id="1" class = "click">1</button>
+    <button onclick="showHistory(id)" id="2" class = "click">2</button>
+    <button onclick="showHistory(id)" id="3" class = "click">3</button>
+    <button onclick="showHistory(id)" id ="+" class = "click">+</button>
+
+    <button onclick="showHistory(id)" id="+/-" class = "click">+/-</button>
+    <button onclick="showHistory(id)" id="0" class = "click">0</button>
+    <button onclick="showHistory(id)" id="." class = "click">.</button>
+    <button onclick="showHistory(id)" id="=" class = "click">=</button>
+</section>
+
+<footer id="line">
+
+</footer>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
